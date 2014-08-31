@@ -9,13 +9,15 @@ Carousel
 
 下载最新的[Carousel release][1]，解压后运行`Carousel.exe`即可。
 
+可能需要安装[.NET Framework 4.0][2]。
+
 ##开发环境
 
  - Microsoft Visual Studio 2010 (如果要在VS中调试，请以管理员权限运行Visual Studio)
 
  - .NET Framework 4.0
 
- - DotRas SDK: [http://dotras.codeplex.com/][2]
+ - DotRas SDK: [http://dotras.codeplex.com/][3]
 
 ##开放源代码许可
 
@@ -42,4 +44,5 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
  [1]: https://github.com/OvOBitex/Carousel/releases/latest
- [2]: http://dotras.codeplex.com/
+ [2]: http://www.microsoft.com/zh-cn/download/details.aspx?id=17851
+ [3]: http://dotras.codeplex.com/
