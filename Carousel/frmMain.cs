@@ -145,10 +145,14 @@ namespace Carousel {
             RegistryKey hkcu = Registry.CurrentUser;
             RegistryKey software = hkcu.OpenSubKey("Software", true);
             RegistryKey carousel = software.CreateSubKey("Carousel");
-            textUsername.Text = (string)carousel.GetValue("username", "");
-            textPassword.Text = (string)carousel.GetValue("password", "");
-            checkRemember.Checked = ((int)carousel.GetValue("remember") == 1);
-            checkAuto.Checked = ((int)carousel.GetValue("auto") == 1);
+            try {
+                textUsername.Text = (string)carousel.GetValue("username", "");
+                textPassword.Text = (string)carousel.GetValue("password", "");
+                checkRemember.Checked = ((int)carousel.GetValue("remember") == 1);
+                checkAuto.Checked = ((int)carousel.GetValue("auto") == 1);
+            } catch (Exception ex) {
+                // never saved
+            }
             carousel.Close();
         }
 
