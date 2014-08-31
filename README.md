@@ -17,7 +17,7 @@ Carousel
 
  - DotRas SDK: [http://dotras.codeplex.com/][2]
 
- ##开放源代码许可
+##开放源代码许可
 
 The MIT License (MIT)
 
