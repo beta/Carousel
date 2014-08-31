@@ -13,6 +13,8 @@ Carousel
 
  - Microsoft Visual Studio 2010 (如果要在VS中调试，请以管理员权限运行Visual Studio)
 
+ - .NET Framework 4.0
+
  - DotRas SDK: [http://dotras.codeplex.com/][2]
 
  [1]: https://github.com/OvOBitex/Carousel/releases/latest
